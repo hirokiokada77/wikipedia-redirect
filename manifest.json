@@ -1,0 +1,13 @@
+{
+	"manifest_version": 3,
+	"name": "Wikipedia Redirect",
+	"version": "0.1.0",
+	"description": "Automatically redirects you to the English version of a Wikipedia article if you land on a non-English version.",
+	"permissions": ["activeTab"],
+	"content_scripts": [
+		{
+			"matches": ["*://*.wikipedia.org/*"],
+			"js": ["content.js"]
+		}
+	]
+}
