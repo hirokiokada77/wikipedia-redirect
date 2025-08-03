@@ -8,6 +8,7 @@ version.
 ## Usage
 
 1. Clone this repository
-2. Enable developer mode in `chrome://extensions`
-3. Load the directory as an unpacked extension (see [Load an unpacked
+2. Run `bun run build`
+3. Enable developer mode in `chrome://extensions`
+4. Load the directory as an unpacked extension (see [Load an unpacked
    extension](https://developer.chrome.com/docs/extensions/get-started/tutorial/hello-world#load-unpacked))

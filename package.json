@@ -1,0 +1,6 @@
+{
+	"scripts": {
+		"build": "bun build content.ts --outfile content.js --sourcemap",
+		"clean": "rm content.js content.js.map"
+	}
+}
