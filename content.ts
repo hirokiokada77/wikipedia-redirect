@@ -8,7 +8,7 @@ const handleLoad = () => {
 
 	const englishLink = document.querySelector(
 		"a.interlanguage-link-target[href^='https://en.wikipedia.org/']",
-	) as HTMLAnchorElement;
+	) as HTMLAnchorElement | null;
 
 	if (englishLink) {
 		window.location.href = englishLink.href;
